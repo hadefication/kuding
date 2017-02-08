@@ -3,6 +3,7 @@
     "type": "project",
     "require": {
         "illuminate/support": "^5.4",
+        "laravelcollective/html": "^5.4.1",
         "hadefication/kuding": "@dev"
     },
     "authors": [
