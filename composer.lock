@@ -154,7 +154,7 @@
             "dist": {
                 "type": "path",
                 "url": "hadefication/kuding",
-                "reference": "3d5a85c542e11223a07e96fd0fdc604c9ff8a048",
+                "reference": "295bd5aba8e29a31f0de3c75fc33b7879fdf098a",
                 "shasum": null
             },
             "require": {
@@ -162,6 +162,11 @@
                 "illuminate/support": "^5.4"
             },
             "type": "project",
+            "autoload": {
+                "psr-4": {
+                    "Hadefication\\Kuding\\": "src/"
+                }
+            },
             "authors": [
                 {
                     "name": "Glen  Bangkila",

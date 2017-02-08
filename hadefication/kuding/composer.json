@@ -11,5 +11,10 @@
             "email": "hadeinvane@gmail.com"
         }
     ],
+    "autoload": {
+        "psr-4": {
+            "Hadefication\\Kuding\\": "src/"
+        }
+    },
     "minimum-stability": "dev"
 }
