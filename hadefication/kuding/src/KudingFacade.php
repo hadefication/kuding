@@ -15,7 +15,7 @@ class KudingFacade extends Facade
      */
     protected static function getFacadeAccessor()
     {
-        return 'facade';
+        return 'kuding';
     }
-    
+
 }
