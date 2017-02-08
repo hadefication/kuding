@@ -1,0 +1,15 @@
+{
+    "name": "hadefication/kuding",
+    "type": "project",
+    "require": {
+        "illuminate/support": "^5.4",
+        "hadefication/kuding": "@dev"
+    },
+    "authors": [
+        {
+            "name": "Glen  Bangkila",
+            "email": "hadeinvane@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}

@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "96098e473b028cdb2529580554a1ae3e",
+    "content-hash": "01509cde5076b13562b0cf5d1a12e607",
     "packages": [
         {
             "name": "dnoegel/php-xdg-base-dir",
@@ -147,6 +147,27 @@
                 "parser"
             ],
             "time": "2016-11-02T15:56:58+00:00"
+        },
+        {
+            "name": "hadefication/kuding",
+            "version": "dev-master",
+            "dist": {
+                "type": "path",
+                "url": "hadefication/kuding",
+                "reference": "3d5a85c542e11223a07e96fd0fdc604c9ff8a048",
+                "shasum": null
+            },
+            "require": {
+                "hadefication/kuding": "@dev",
+                "illuminate/support": "^5.4"
+            },
+            "type": "project",
+            "authors": [
+                {
+                    "name": "Glen  Bangkila",
+                    "email": "hadeinvane@gmail.com"
+                }
+            ]
         },
         {
             "name": "jakub-onderka/php-console-color",
@@ -3330,7 +3351,9 @@
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "hadefication/kuding": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {

@@ -4,8 +4,15 @@
     "keywords": ["framework", "laravel"],
     "license": "MIT",
     "type": "project",
+    "repositories": [
+        {
+            "type": "path",
+            "url": "hadefication/kuding"
+        }
+    ],
     "require": {
         "php": ">=5.6.4",
+        "hadefication/kuding": "@dev",
         "laravel/framework": "5.4.*",
         "laravel/tinker": "~1.0"
     },
