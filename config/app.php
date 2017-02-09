@@ -227,7 +227,7 @@ return [
         'Validator' => Illuminate\Support\Facades\Validator::class,
         'View' => Illuminate\Support\Facades\View::class,
 
-        Hadefication\Kuding\KudingFacade::class,
+        'Kuding' => Hadefication\Kuding\KudingFacade::class,
 
     ],
 

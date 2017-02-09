@@ -154,11 +154,10 @@
             "dist": {
                 "type": "path",
                 "url": "hadefication/kuding",
-                "reference": "e1ef9c2921ebcd1be51625c82331df4fdb30d4e7",
+                "reference": "257212290cc2eea2b35b650112b5193c6d246da8",
                 "shasum": null
             },
             "require": {
-                "hadefication/kuding": "@dev",
                 "illuminate/support": "^5.4",
                 "laravelcollective/html": "^5.4.1"
             },
