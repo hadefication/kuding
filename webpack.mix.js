@@ -1,3 +1,4 @@
+const { kuding } =  require('./webpack.mix.kuding.js');
 const { mix } = require('laravel-mix');
 
 /*
@@ -11,5 +12,11 @@ const { mix } = require('laravel-mix');
  |
  */
 
-mix.js('resources/assets/js/app.js', 'public/js')
-   .sass('resources/assets/sass/app.scss', 'public/css');
+mix.js(kuding.assetsPath('js/theme.js'), kuding.publicAssetsPath('js'))
+   .sass(kuding.assetsPath('sass/theme.scss'), kuding.publicAssetsPath('css'))
+   .copy('node_modules/bootstrap-sass/assets/fonts/bootstrap', kuding.publicAssetsPath('fonts/bootstrap'))
+
+
+   ;
+
+kuding.setPublicPath(mix);

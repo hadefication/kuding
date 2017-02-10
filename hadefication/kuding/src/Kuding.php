@@ -2,10 +2,13 @@
 
 namespace Hadefication\Kuding;
 
+use Hadefication\Kuding\Lib\Traits\HelpersTrait;
+
 use Route;
 
 class Kuding
 {
+    use HelpersTrait;
 
     public function routes()
     {

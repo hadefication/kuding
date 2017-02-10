@@ -1,0 +1,15 @@
+#topbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    min-height: $topbar-height;
+
+    .navbar {
+        border-radius: 0;
+
+        .navbar-brand {
+            font-weight: bold;
+        }
+    }
+}

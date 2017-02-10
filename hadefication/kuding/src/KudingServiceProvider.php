@@ -38,11 +38,13 @@ class KudingServiceProvider extends ServiceProvider
         $this->loadTranslationsFrom(__DIR__.'/resources/lang', self::NAME);
 
         $this->loadRoutesFrom(__DIR__.'/routes/kuding.php');
-        
+
         // Publishables
         $this->publishes([
             __DIR__.'/config/kuding.php' => config_path('kuding.php'),
             __DIR__.'/resources/lang' => resource_path('lang/vendor/kuding'),
+            __DIR__.'/resources/assets' => resource_path('assets/vendor/kuding'),
+            __DIR__.'/resources/mix/webpack.mix.kuding.js' => base_path('webpack.mix.kuding.js'),
         ]);
 
         $this->autoload();

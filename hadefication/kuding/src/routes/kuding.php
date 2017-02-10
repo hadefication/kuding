@@ -7,7 +7,7 @@ Route::group([
 
     Route::get('', function() {
         return view('kuding::pages.cpanel.dashboard');
-    });
+    })->name('kuding.cpanel');
 
 
 });
