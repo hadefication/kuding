@@ -25,19 +25,6 @@
             <div id="main" class="main">@yield('main')</div>
         </div>
 
-        <footer>
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-7">
-                        <p class="text-muted">&copy; 2016 {{ config('app.name') }}. All Rights Reserved. Powered by <strong>Kuding</strong>.</p>
-                    </div>
-                    <div class="col-md-5">
-                        <p class="text-right">fa tw ln</p>
-                    </div>
-                </div>
-            </div>
-        </footer>
-
-        <script src="{{ Kuding::kasset('js/theme.js') }}"></script>
+        @include('kuding::themes.includes.footer')
     </body>
 </html>
