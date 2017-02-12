@@ -22,15 +22,15 @@
                             <span class="caret"></span>
                         </a>
                         <ul class="dropdown-menu">
-                            <li><a href="#">Manage Pages</a></li>
+                            <li><a href="{{ route('kuding.cpanel.contents') }}">Manage Pages</a></li>
                             <li role="separator" class="divider"></li>
-                            <li><a href="#">Add Contents</a></li>
+                            <li><a href="{{ route('kuding.cpanel.contents.create') }}">Add Contents</a></li>
                         </ul>
                     </li>
                 </ul>
 
                 <ul class="nav navbar-nav navbar-right">
-                    <li><a href="#">Help</a></li>
+                    <li><a href="#"><i class="glyphicon glyphicon-question-sign"></i></a></li>
                     <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
                             <i class="glyphicon glyphicon-bell"></i>

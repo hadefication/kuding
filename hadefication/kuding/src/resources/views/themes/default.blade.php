@@ -21,8 +21,8 @@
 
         @include('kuding::themes.includes.topbar')
 
-        <div class="container">
-            <div id="main" class="main">@yield('main')</div>
+        <div id="main" class="main">
+            @yield('main')
         </div>
 
         @include('kuding::themes.includes.footer')

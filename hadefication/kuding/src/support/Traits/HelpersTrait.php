@@ -1,6 +1,6 @@
 <?php
 
-namespace Hadefication\Kuding\Lib\Traits;
+namespace Hadefication\Kuding\Support\Traits;
 
 trait HelpersTrait
 {

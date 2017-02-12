@@ -4,12 +4,9 @@
     left: 0;
     right: 0;
     min-height: $topbar-height;
+    z-index: 1000;
 
     .navbar {
         border-radius: 0;
-
-        .navbar-brand {
-            font-weight: bold;
-        }
     }
 }
